@@ -1,0 +1,56 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw",
+    {
+      "@language": "en"
+    }
+  ],
+  "rdfs:comment": [
+    "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/"
+  ],
+  "url": "https://docs.google.com/spreadsheets/u/0/d/14k7szkUzQIa7yu_FPeblM5l11KSSA447q1L84ULYy2Q/export?format=csv",
+  "dcterms:bibliographicCitation": "Agosti, Donat. 2020. Transcription of Linné, C. von, 1758. Systema naturae per regna tria naturae secundum classes, ordines, genera, species, cum characteribus, differentiis, synonymis, locis. Available at: http://dx.doi.org/10.5962/bhl.title.542 .",
+  "headerRowCount": 1,
+  "null": [
+    ""
+  ],
+  "tableSchema": {
+    "columns": [
+      {
+        "name": "sourceTaxonName",
+        "titles": "sourceTaxonName",
+        "datatype": "string"
+      },
+      {
+        "name": "interactionTypeName",
+        "titles": "interactionTypeName",
+        "datatype": "string"
+      },
+      {
+        "name": "interactionTypeId",
+        "titles": "interactionTypeId",
+        "datatype": "string"
+      },
+      {
+        "name": "targetTaxonName",
+        "titles": "targetTaxonName",
+        "datatype": "string"
+      },
+      {
+        "name": "referenceUrl",
+        "titles": "referenceUrl",
+        "datatype": "string"
+      },
+      {
+        "name": "referenceDoi",
+        "titles": "referenceDoi",
+        "datatype": "string"
+      },
+      {
+        "name": "referenceCitation",
+        "titles": "referenceCitation",
+        "datatype": "string"
+      }
+    ]
+  }
+}
