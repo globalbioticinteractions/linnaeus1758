@@ -37,6 +37,11 @@
         "datatype": "string"
       },
       {
+        "name": "localityName",
+        "titles": "locality",
+        "datatype": "string"
+      },
+      {
         "name": "referenceUrl",
         "titles": "referenceUrl",
         "datatype": "string"
